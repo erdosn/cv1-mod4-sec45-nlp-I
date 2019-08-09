@@ -321,6 +321,11 @@ df.head()
 
 
 
+
+```python
+df.to_csv("News_Dataset_Cleaned.csv")
+```
+
 ### create word embeddings
 
 
@@ -540,7 +545,7 @@ plt.show()
 ```
 
 
-![png](lesson-plan_files/lesson-plan_28_0.png)
+![png](lesson-plan_files/lesson-plan_29_0.png)
 
 
 ### let's make this a function! 
@@ -570,7 +575,7 @@ plot_most_similar_words('texas')
 ```
 
 
-![png](lesson-plan_files/lesson-plan_31_0.png)
+![png](lesson-plan_files/lesson-plan_32_0.png)
 
 
 
@@ -596,7 +601,7 @@ plot_least_similar_words(word='texas')
 ```
 
 
-![png](lesson-plan_files/lesson-plan_33_0.png)
+![png](lesson-plan_files/lesson-plan_34_0.png)
 
 
 
@@ -624,7 +629,7 @@ plot_most_and_least_similar_words()
 ```
 
 
-![png](lesson-plan_files/lesson-plan_35_0.png)
+![png](lesson-plan_files/lesson-plan_36_0.png)
 
 
 ### Let's try phrase analysis
@@ -3818,7 +3823,7 @@ plot_most_similar_words(embedding=phrased_embeddings, word='politics')
 
 
 
-![png](lesson-plan_files/lesson-plan_50_1.png)
+![png](lesson-plan_files/lesson-plan_51_1.png)
 
 
 ### Assessment
